@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="items-center justify-center p-4 flex min-h-screen bg-gray-800">
+
+  <div class="w-full max-w-xl shadow-xl rounded-2xl p-5 bg-gray-900">  <!-- max-w-md → max-w-lg -->
+    <h1 class="lg:text-2xl xs:text-xl font-bold text-center flex items-center justify-center gap-2 text-cyan-500 mb-6">
+      <span><img class="h-8 w-20 sm:h-10 sm:w-24 lg:h-12 lg:w-28" src="./images/image.png" alt="softzino"></span> 
+      MY TODO APP
+    </h1>
+
+    <!-- Input Area -->
+    <div class="relative flex mb-5">
+      <input type="text" placeholder="Add a new task..."
+        class="flex-1 border border-gray-300 rounded-full px-4 py-2 focus:outline-none hover:border-cyan-400
+         text-white bg-gray-900 w-full"> 
+         <button 
+      class="absolute right-0 top-0 bottom-0 bg-cyan-400 text-gray-900 font-semibold px-5
+       rounded-full hover:bg-emerald-500 transition">
+      ADD
+    </button>
+
+    </div>
+
+    <!-- Todo Items -->
+    <ul class="space-y-2">
+
+        <!-- 1 -->
+
+      <li class="flex justify-between items-center bg-gray-800 px-4 py-1 rounded-lg">
+        <div class="flex items-center gap-2.5">
+            
+          <input class="w-4 h-4 rounded-full" type="checkbox">
+          
+
+          <span class="text-white">Hello Softzino</span>
+        </div>
+        <div>
+          <button class="text-green-500 hover:text-green-700 mr-2">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+
+          <button class="text-red-400 hover:text-red-500">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+        </div>
+      </li>
+
+      <!-- 2 -->
+
+      <li class="flex justify-between items-center bg-gray-800 px-4 py-1 rounded-lg">
+        <div class="flex items-center gap-2.5">
+            
+          <input class="w-4 h-4 rounded-full" type="checkbox">
+          
+
+          <span class="text-white">Hello Softzino</span>
+        </div>
+        <div>
+          <button class="text-green-500 hover:text-green-700 mr-2">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+
+          <button class="text-red-400 hover:text-red-500">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+        </div>
+      </li>
+
+      <!-- 3 -->
+
+      <li class="flex justify-between items-center bg-gray-800 px-4 py-1 rounded-lg">
+        <div class="flex items-center gap-2.5">
+            
+          <input class="w-4 h-4 rounded-full" type="checkbox">
+          
+
+          <span class="text-white">Hello Softzino</span>
+        </div>
+        <div>
+          <button class="text-green-500 hover:text-green-700 mr-2">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+
+          <button class="text-red-400 hover:text-red-500">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+        </div>
+      </li>
+
+      <!-- 4 -->
+
+      <li class="flex justify-between items-center bg-gray-800 px-4 py-1 rounded-lg">
+        <div class="flex items-center gap-2.5">
+            
+          <input class="w-4 h-4 rounded-full" type="checkbox">
+          
+
+          <span class="text-white">Hello Softzino</span>
+        </div>
+        <div>
+          <button class="text-green-500 hover:text-green-700 mr-2">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+
+          <button class="text-red-400 hover:text-red-500">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm2 3h14v12H5V9zm3 2v8h2v-8H8zm4 0v8h2v-8h-2z"/></svg>
+        </button>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Footer -->
+    <p class="text-center text-gray-500 text-sm mt-6">Made with ❤️ using Tailwind CSS</p>
+  </div>
+
+</div>
+
+</body>
+</html>
+
